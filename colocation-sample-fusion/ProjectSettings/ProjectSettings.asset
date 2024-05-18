@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Meta
-  productName: ColocationSample-Fusion
+  productName: Local Multiplayer
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,12 +135,10 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 0.1
+  bundleVersion: 22
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 11400000, guid: ad944facfaf7d354c98dc931ee64ba24, type: 2}
-  - {fileID: -7499973803245531588, guid: 2baf4bd209a1ab8499c335b807084956, type: 2}
-  - {fileID: 11400000, guid: f57e09e5b7d98aa44a4bbfe09335f07b, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +159,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.samples.mynewproject
+    Android: com.EducationSimulationDesigns.LocalMultiplayer
     Standalone: com.Meta.ColocationSample-Fusion
   buildNumber:
     Standalone: 0
@@ -263,8 +261,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{dedicated}: Desktop/Colocation Keystore.keystore'
-  AndroidKeyaliasName: colocation keystore
+  AndroidKeystoreName: '{dedicated}: Desktop/LocalMultiplayerKeystore.keystore'
+  AndroidKeyaliasName: localmulti
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
