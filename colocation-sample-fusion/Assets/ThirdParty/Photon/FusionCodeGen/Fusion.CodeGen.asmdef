@@ -15,10 +15,13 @@
         "Fusion.Runtime.dll",
         "Fusion.Common.dll",
         "Fusion.Realtime.dll",
-        "Fusion.Sockets.dll"
+        "Fusion.Sockets.dll",
+        "Fusion.Log.dll"
     ],
     "autoReferenced": false,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "FUSION_WEAVER"
+    ],
     "versionDefines": [
         {
             "name": "Unity",
